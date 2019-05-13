@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Space-Pilots-game</title>
+</head>
+
+<body>
+    <div>
+        <script src="./lib/phaser.js"></script>
+        <script src="./src/main.js"></script>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="story.html">
+            <font size="20" color="#1fbd19">Story</font>
+        </a>
+        <a href="trailer.html">
+            <font size="20" color="#1fbd19">Trailer</font>
+        </a>
+
+    </div>
+    <div class="menu">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "315.5px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+
+
+</body>
+
+</html>
