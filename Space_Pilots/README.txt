@@ -1,3 +1,5 @@
+To launch game you need installed node.js. 
+
 Launch the game by clicking on Play_Space_Pilots.exe.
 
 First time you launch the game it takes a bit of time.
