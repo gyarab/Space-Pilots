@@ -1,3 +1,3 @@
 @echo off
-npm install -g parcel
+npm install parcel --save
 pause
