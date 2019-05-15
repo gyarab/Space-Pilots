@@ -1,3 +1,3 @@
 @echo off
-npm install -g concurrently
+npm install concurrently --save
 pause
